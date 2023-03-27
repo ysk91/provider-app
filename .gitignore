@@ -38,3 +38,6 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+
+jwtRS256.key
+jwtRS256.key.pub
