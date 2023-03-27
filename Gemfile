@@ -24,6 +24,8 @@ gem 'jbuilder', '~> 2.7'
 
 # 認証系
 gem 'devise'
+gem 'doorkeeper'
+gem 'doorkeeper-openid_connect'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
