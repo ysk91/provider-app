@@ -19,11 +19,6 @@ class User < ApplicationRecord
                                 uniqueness: true
                                 # format: false
 
-  validates :provider,          presence: true
-                                # length: { maximum: 50 }
-                                # uniqueness: true
-                                # format: false
-
   after_create :set_uid!
 
   private
